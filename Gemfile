@@ -39,8 +39,7 @@ group :development, :test do
 end
 
 group :production do
-gem 'rails-12factor'
-gem 'pg'
+#gem 'pg'
 end
 
 group :development do
@@ -57,6 +56,12 @@ gem 'twitter-bootstrap-rails'
 gem 'devise'
 
 gem 'simple_form'
+
+
+gem 'remotipart', github: 'mshibuya/remotipart'
+gem 'rails_admin', github: 'sferik/rails_admin'
+gem 'rails_admin_rollincode', '~> 1.0'
+gem "devise"
 
 
 
